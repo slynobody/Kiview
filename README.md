@@ -5,7 +5,7 @@
 
 # Kiview  
 ## cloned from https://invent.kde.org/danagost/Kiview (poc: working in dolphin)
-Kiview gives you ability to quickly preview different file types in dolphin through spacebar (without needing to launch default application).
+Kiview gives you the ability to quickly preview different file types in dolphin through spacebar (without needing to launch default application).
 
 ### Supported file types:
 ##### Text Files:
@@ -20,22 +20,24 @@ mp4, mp3, webm, mkv, m4a, m4v
 zip, gz, xz, 7z
 
 ## Installation (debian)
-sudo apt install build-essential cmake extra-cmake-modules gettext qt6-declarative-dev qt6-base-dev  libkf6i18n-dev libkf6coreaddons-dev qml-module-org-kde-qqc2desktopstyle kf6-kirigami-dev qt6-webengine-dev gstreamer1.0-libav libva-dev kf6-karchive-dev libkf6dbusaddons-dev kirigami-addons-dev
-./install.sh
+> sudo apt install build-essential cmake extra-cmake-modules gettext qt6-declarative-dev qt6-base-dev  libkf6i18n-dev libkf6coreaddons-dev qml-module-org-kde-qqc2desktopstyle kf6-kirigami-dev qt6-webengine-dev gstreamer1.0-libav libva-dev kf6-karchive-dev libkf6dbusaddons-dev kirigami-addons-dev
+>
+> ./install.sh
 
 ## Installation (other)
-dependencies: [Link](Y>>>-/blob/master/requirements(DEV%20ONLY).txt?ref_type=heads)  
+dependencies: [Link](https://raw.githubusercontent.com/slynobody/Kiview/refs/heads/main/requirements(DEV%20ONLY).txt?token=GHSAT0AAAAAAEPZZEXR3BUOIFM5Q5S62Z4I2XULZ2A)  
 
 ## after installation:
-restart dolphin
-Dolphin >> Settings >> 'configure keyboard layouts' >> 'Kiview' >> link it with key (f.e. spacebar)
+> restart dolphin
+> 
+> Dolphin >> Settings >> 'configure keyboard layouts' >> 'Kiview' >> link with preferred key (f.e. >spacebar<)
 
-## How it works
+## How it works (Plasma / Dolphin)
 
 press linked key (f.e. <space>) in dolphin on any supported file to show preview, <space> again to close preview
 press linked key (f.e. <space>) in dolphin in any folder to get an overview, <space> again to close preview
 
-### From the terminal:  
+### How it works (terminal):  
 This shows the preview of the file:   
 `kiview -s /home/user/some_file_or_folder`  
 This shows an overview of the working directory:  
