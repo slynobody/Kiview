@@ -1,0 +1,35 @@
+{
+   "id": "io.github.nyre221.kiview",
+   "runtime": "org.kde.Platform",
+   "runtime-version": "6.11",
+   "sdk": "org.kde.Sdk",
+   "base": "io.qt.qtwebengine.BaseApp",
+   "base-version": "6.11",
+   "command": "kiview",
+   "finish-args": [
+      "--share=ipc",
+      "--device=dri",
+      "--socket=fallback-x11",
+      "--socket=wayland",
+      "--env=QML_IMPORT_PATH=/app/qml",
+      "--socket=pulseaudio",
+      "--filesystem=host:ro",
+      "--talk-name=org.kde.*",
+      "--talk-name=org.freedesktop.Flatpak"
+   ],
+   "cleanup-commands": [
+      "/app/cleanup-BaseApp.sh"
+   ],
+   "modules": [
+      {
+         "buildsystem": "cmake-ninja",
+         "name": "kiview",
+         "sources": [
+            {
+               "type": "dir",
+               "path": "."
+            }
+         ]
+      }
+   ]
+}

@@ -1,0 +1,14 @@
+[Desktop Action default_action]
+Exec=/usr/local/bin/dolphin_quick_view_shortcut.sh
+Icon=redeyes-symbolic
+Name=Kiview
+
+[Desktop Entry]
+Actions=default_action;
+Icon=redeyes-symbolic
+MimeType=all/all;
+Name=Kiview
+ServiceTypes=KonqPopupMenu/Plugin
+Type=Service
+X-KDE-Priority=TopLevel
+X-KDE-StartupNotify=false

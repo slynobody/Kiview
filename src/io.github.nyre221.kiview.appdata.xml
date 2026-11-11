@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-License-Identifier: FSFAP
+  SPDX-FileCopyrightText: 2024 danilo agostini <kyre334@gmail.com>
+ -->
+
+<component type="desktop-application">
+  <id>io.github.nyre221.kiview</id>
+  <metadata_license>FSFAP</metadata_license>
+  <project_license>GPL-3.0</project_license>
+  <name>Kiview</name>
+  <summary>Quick file preview</summary>
+  <summary xml:lang="it">Anteprima rapida dei file</summary>
+  <description>
+  <p>Kiview lets you quickly preview various file types (text, images, videos, etc.) in Dolphin without opening the default app. Similar applications are Apple's Quick Look and Gnome Sushi.</p>
+  <p>Supported file types:</p>
+  <p>.txt,.sh,.json,.pdf,.doc,.docx,.odt,.ods,.xlsx,.xls,.csv,.odp,.ppt,.pptx,.png,.jpg,.jpeg,.jxl,.kra,.svgz,.svg,.mp4,.mp3,.webm,.zip,.gz,.xz,.rar</p>
+  <p xml:lang="it">Kiview ti permette di visualizzare rapidamente il contenuto di diversi tipi di file (testi, immagini, video, etc.) in Dolphin senza dover aprire l'applicazione predefinita. Applicazioni simili sono Quick Look e Gnome Sushi.</p>
+  <p xml:lang="it">Tipi di file supportati:</p>
+  <p xml:lang="it">.txt,.sh,.json,.pdf,.doc,.docx,.odt,.ods,.xlsx,.xls,.csv,.odp,.ppt,.pptx,.png,.jpg,.jpeg,.jxl,.kra,.svgz,.svg,.mp4,.mp3,.webm,.webp,.zip,.gz,.xz,.rar</p>
+  </description>
+  <url type="bugtracker">https://github.com/Nyre221/Kiview</url>
+  <url type="homepage">https://github.com/Nyre221/Kiview</url>
+  <url type="donation">https://www.paypal.com/donate/?hosted_button_id=J7QU55MMUP4G4</url>
+  <launchable type="desktop-id">io.github.nyre221.kiview.desktop</launchable>
+  <screenshots>
+    <screenshot type="default">
+     <image>https://raw.githubusercontent.com/Nyre221/Kiview/master/extraStuff/screenshots/screenshot1.png</image>
+     <caption>PDF document</caption>
+   </screenshot>
+   <screenshot>
+     <image>https://raw.githubusercontent.com/Nyre221/Kiview/master/extraStuff/screenshots/screenshot2.png</image>
+     <caption>Preview of a .kra file</caption>
+   </screenshot>
+ </screenshots>
+  <provides>
+    <binary>kiview</binary>
+  </provides>
+  <project_group>nyre</project_group>
+  <content_rating type="oars-1.1"/>
+  <releases>
+    <release version="1.1" date="2024-04-22" />
+    <release version="1.0.2" date="2024-04-10" />
+    <release version="1.0.1" date="2024-04-06" />
+  </releases>
+  <developer id="io.github.nyre221">
+    <name>Nyre</name>
+  </developer>
+</component>

@@ -1,0 +1,33 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Kiview
+Upstream-Contact: Danilo Agostini <kyre334@gmail.com>
+Source: https://invent.kde.org/danagost/Kiview
+
+Files: .flatpak-manifest.json
+Copyright: 2024 Danilo Agostini <kyre334@gmail.com>
+License: GPL-3.0-or-later
+
+Files: flathub.json
+Copyright: 2024 Danilo Agostini <kyre334@gmail.com>
+License: GPL-3.0-or-later
+
+Files: extraStuff/screenshots/screenshot1.png
+Copyright: 2024 Danilo Agostini <kyre334@gmail.com>
+License: GPL-3.0-or-later
+
+Files: extraStuff/screenshots/screenshot2.png
+Copyright: 2024 Danilo Agostini <kyre334@gmail.com>
+License: CC-BY-SA-4.0
+
+Files: icons/128-apps-io.github.nyre221.kiview.svg
+Copyright: none
+License: CC0-1.0
+
+Files: po/mergeCommand.txt
+Copyright: none
+License: CC0-1.0
+
+Files: po/*/* po/kiview.pot
+Copyright: 2024 Danilo Agostini <kyre334@gmail.com>
+License: GPL-3.0-or-later
+
