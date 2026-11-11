@@ -27,7 +27,7 @@ zip, gz, xz, 7z
 ## Installation (other)
 dependencies: [Link](https://raw.githubusercontent.com/slynobody/Kiview/refs/heads/main/requirements(DEV%20ONLY).txt?token=GHSAT0AAAAAAEPZZEXR3BUOIFM5Q5S62Z4I2XULZ2A)  
 
-## after installation:
+### after installation:
 > restart dolphin
 > 
 > Dolphin >> Settings >> 'configure keyboard layouts' >> 'Kiview' >> link with preferred key (f.e. >spacebar<)
@@ -35,6 +35,7 @@ dependencies: [Link](https://raw.githubusercontent.com/slynobody/Kiview/refs/hea
 ## How it works (Plasma / Dolphin)
 
 press linked key (f.e. <space>) in dolphin on any supported file to show preview, <space> again to close preview
+
 press linked key (f.e. <space>) in dolphin in any folder to get an overview, <space> again to close preview
 
 ### How it works (terminal):  
